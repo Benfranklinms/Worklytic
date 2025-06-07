@@ -24,13 +24,13 @@ const submitHandler = (e) => {
                     setemail(e.target.value)
                 }}
                 value={email}
-                className='border-2 border-red-400 rounded-full py-3 px-5 text-xl outline-none bg-transparent placeholder:text-gray-200 placeholder:text-[14px]' type="email" placeholder='Enter your email'/>
+                className='border-2 border-red-400 rounded-full py-3 px-5 outline-none bg-transparent placeholder:text-gray-200' type="email" placeholder='Enter your email'/>
                 <input onChange={(e) => {
                     setpassword(e.target.value)
                 }}
                 value={password}
-                className='border-2 border-red-400 rounded-full py-3 px-5 text-xl outline-none bg-transparent placeholder:text-gray-200 placeholder:text-[14px] mt-3' type="password" placeholder='Enter your password' required/>
-                <button className='mt-5 border-none border-red-600 rounded-full py-3 px-5 text-xl outline-none text-[14px] bg-red-400'>Login</button>
+                className='border-2 border-red-400 rounded-full py-3 px-5 outline-none bg-transparent placeholder:text-gray-200 mt-3' type="password" placeholder='Enter your password' required/>
+                <button className='mt-5 border-none border-red-600 rounded-full py-3 px-14 text-xl outline-none text-[14px] bg-red-400'>Login</button>
             </form>
         </div>
     </div>

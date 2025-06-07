@@ -7,9 +7,9 @@ import Admin from './components/Dashboard/Admin.jsx'
 const App = () => {
   return (
     <>
-      {/* <Login/> */}
+      <Login/>
       {/* <Employee/> */}
-      <Admin/>
+      {/* <Admin/> */}
     </>
   )
 }
