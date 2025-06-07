@@ -8,14 +8,14 @@ const Login = () => {
 
 const submitHandler = (e) => {
     e.preventDefault();
-    console.log("Email is ", email);
+    console.log("Email is ", email)
     console.log("Password is ", password)
 }
   return (
     <div className='h-screen w-screen flex justify-center items-center'>
         <div className='border-2 border-red-400 p-20 rounded-xl'>
             <form onSubmit = {(e) => {
-                submitHandler(e);
+                submitHandler(e)
                 setemail("")
                 setpassword("")
             }}
